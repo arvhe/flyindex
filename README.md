@@ -81,4 +81,6 @@ GitHub Pages
 Netlify
 Vercel
 
-Built for the fly tying community. Tight lines! 🎣
+Built for the fly-tying community. Tight lines! 🎣
+
+Background Image used in this project is from LynnRankHenry on Etsy - https://www.etsy.com/listing/1765361142/fly-fishing-art-12x16-original-art-hand - DM if wanted to be removed
