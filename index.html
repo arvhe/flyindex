@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fly Index</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <!-- Add Fly Pattern Button -->
+    <div class="header-left">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfizIl4gzaR0qHE8LDS-ciRWItM2blpqJYfqcUQEPruJDWdzQ/viewform" 
+         target="_blank" 
+         class="icon-btn" 
+         title="Add Fly Pattern">
+        <i class="fa-solid fa-plus"></i>
+      </a>
+    </div>
+
+    <h1>Fly Index</h1>
+
+    <div class="header-right">
+      <button id="toggleSearch" class="icon-btn" title="Search by name">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+      <button id="openMaterials" class="icon-btn" title="Your materials">
+        <i class="fa-solid fa-feather"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Search Bar (toggleable) -->
+  <div id="searchBar" class="search-bar hidden">
+    <input type="text" id="searchInput" placeholder="Search fly patterns by name or tag...">
+  </div>
+</header>
+
+<!-- Always Visible Tag Filter -->
+<section id="tagFilterSection" class="tag-filter">
+  <div class="tag-filter-inner">
+    <h3>Filter by Tags</h3>
+    <div id="tagButtons"></div>
+    <button id="clearTags" class="clear-btn">Clear Tags</button>
+  </div>
+</section>
+
+<main>
+  <section id="flyGrid" class="grid"></section>
+</main>
+
+<!-- Fly Details Modal with Variant Dropdown -->
+<div id="flyModal" class="modal">
+  <div class="modal-content fly">
+    <span id="closeFlyModal" class="modal-close">&times;</span>
+
+    <div class="modal-image-container">
+      <img id="modalImage" alt="Fly pattern">
+    </div>
+
+    <div class="modal-text">
+      <div class="variant-selector">
+        <label for="variantDropdown"><strong>Variant:</strong></label>
+        <select id="variantDropdown"></select>
+      </div>
+
+      <h2 id="modalName"></h2>
+
+      <h4>Materials</h4>
+      <ul id="modalMaterials"></ul>
+
+      <h4>Tags</h4>
+      <ul id="modalTags"></ul>
+
+      <h4>Tying Instructions</h4>
+      <div id="modalInstructions" class="instructions">
+        No tying instructions provided for this pattern yet.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Materials Modal -->
+<div id="materialsModal" class="modal">
+  <div class="modal-content materials">
+    <h2>Your Materials</h2>
+    <div id="materialsList"></div>
+    <button id="saveMaterials">Save</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

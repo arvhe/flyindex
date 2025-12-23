@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Woolly Bugger",
+    "variants": [
+      {
+        "variantName": "Green and Black",
+        "image": "green-black.jpg",
+        "materials": ["Fly hooks", "Marabou", "Chenille", "Hackle fibers", "Lead wire", "Thread"],
+        "tags": ["Freshwater", "Streamer", "Trout", "Bass", "Warmwater"],
+        "instructions": "1. Wrap lead wire on hook shank for weight.\n2. Tie in marabou tail (twice shank length).\n3. Tie in chenille body and palmer hackle forward.\n4. Wrap chenille forward, secure hackle tip.\n5. Whip finish and add head cement."
+      }
+    ]
+  },
+  {
+    "name": "Pheasant Tail Nymph",
+    "variants": [
+      {
+        "variantName": "Standard",
+        "image": "standard.jpg",
+        "materials": ["Fly hooks", "Pheasant tail fibers", "Copper wire", "Peacock herl", "Thread", "Dubbing"],
+        "tags": ["Freshwater", "Nymph", "Trout", "River", "Coldwater"],
+        "instructions": "1. Tie in pheasant tail fibers as tail.\n2. Wrap copper rib and pheasant body.\n3. Build thorax with dubbing.\n4. Pull pheasant fibers over to form wing case.\n5. Finish with peacock herl head."
+      }
+    ]
+  },
+  {
+    "name": "Elk Hair Caddis",
+    "variants": [
+      {
+        "variantName": "Standard",
+        "image": "standard.jpg",
+        "materials": ["Fly hooks", "Elk hair", "Dubbing", "Rooster hackle", "Thread"],
+        "tags": ["Freshwater", "Dry Fly", "Trout", "River", "Attractor"],
+        "instructions": "1. Dub a tapered body.\n2. Palmer hackle through body.\n3. Tie in elk hair wing over body.\n4. Build neat head and whip finish."
+      }
+    ]
+  },
+  {
+    "name": "Clouser Minnow",
+    "variants": [
+      {
+        "variantName": "Standard",
+        "image": "standard.jpg",
+        "materials": ["Fly hooks", "Dumbbell eyes", "Bucktail", "Flashabou", "Thread"],
+        "tags": ["Saltwater", "Streamer", "Bass", "Pike", "Warmwater"],
+        "instructions": "1. Tie dumbbell eyes on top of hook shank.\n2. Tie white bucktail on bottom as belly.\n3. Tie chartreuse bucktail on top.\n4. Add flashabou strands.\n5. Secure head with thread."
+      }
+    ]
+  },
+  {
+    "name": "Adams Dry Fly",
+    "variants": [
+      {
+        "variantName": "Standard",
+        "image": "standard.jpg",
+        "materials": ["Fly hooks", "Hackle fibers", "Mallard flank", "Muskrat fur", "Thread", "Goose biots"],
+        "tags": ["Freshwater", "Dry Fly", "Trout", "Attractor", "River"],
+        "instructions": "1. Tie in tail with goose biots.\n2. Dub muskrat fur body.\n3. Palmer brown and grizzly hackle.\n4. Tie in mallard wing.\n5. Finish with thread head."
+      }
+    ]
+  },
+  {
+    "name": "San Juan Worm",
+    "variants": [
+      {
+        "variantName": "Standard",
+        "image": "standard.jpg",
+        "materials": ["Fly hooks", "Chenille", "Bead heads", "Thread"],
+        "tags": ["Freshwater", "Nymph", "Trout", "Stillwater", "Beginner"],
+        "instructions": "1. Tie bead head on hook.\n2. Tie in pink or red chenille.\n3. Wrap chenille forward in loose coils.\n4. Secure and whip finish."
+      }
+    ]
+  },
+  {
+    "name": "Zonker Streamer",
+    "variants": [
+      {
+        "variantName": "Green and Gold",
+        "image": "green-gold.jpg",
+        "materials": ["Fly hooks", "Rabbit fur", "Tinsel", "Cone heads", "Thread"],
+        "tags": ["Freshwater", "Streamer", "Trout", "Salmon", "Coldwater"],
+        "instructions": "1. Tie cone head on hook.\n2. Tie tinsel body.\n3. Tie rabbit zonker strip over back.\n4. Wrap strip forward, secure.\n5. Add head cement."
+      }
+    ]
+  }
+]
