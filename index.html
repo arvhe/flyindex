@@ -6,11 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Pacifico&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+  <link rel="icon" href="images/logo.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -45,12 +46,19 @@
   </div>
 </header>
 
-<!-- Always Visible Tag Filter -->
+<img src="images/logo.png" alt="Logo" class="logo">
+
+<!-- Tag Filter (dropdown) -->
 <section id="tagFilterSection" class="tag-filter">
   <div class="tag-filter-inner">
-    <h3>Filter by Tags</h3>
-    <div id="tagButtons"></div>
-    <button id="clearTags" class="clear-btn">Clear Tags</button>
+    <div class="tag-filter-header" id="tagFilterHeader">
+      <h3>Filter by Tags</h3>
+      <i class="fa-solid fa-chevron-down" id="toggleArrow"></i>
+    </div>
+    <div class="tag-filter-content" id="tagFilterContent">
+      <div id="tagButtons"></div>
+      <button id="clearTags" class="clear-btn">Clear Tags</button>
+    </div>
   </div>
 </section>
 
@@ -61,8 +69,6 @@
 <!-- Fly Details Modal with Variant Dropdown -->
 <div id="flyModal" class="modal">
   <div class="modal-content fly">
-    <span id="closeFlyModal" class="modal-close">&times;</span>
-
     <div class="modal-image-container">
       <img id="modalImage" alt="Fly pattern">
     </div>
@@ -87,6 +93,7 @@
       </div>
     </div>
   </div>
+  <span id="closeFlyModal" class="modal-close">&times;</span>
 </div>
 
 <!-- Materials Modal -->

@@ -45,6 +45,10 @@ const saveMaterials = document.getElementById("saveMaterials");
 
 const tagButtonsContainer = document.getElementById("tagButtons");
 const clearTagsBtn = document.getElementById("clearTags");
+const tagFilterSection = document.getElementById("tagFilterSection");
+const tagFilterHeader = document.getElementById("tagFilterHeader");
+const tagFilterContent = document.getElementById("tagFilterContent");
+const toggleArrow = document.getElementById("toggleArrow");
 
 const flyModal = document.getElementById("flyModal");
 const closeFlyModal = document.getElementById("closeFlyModal");
@@ -123,6 +127,12 @@ toggleSearch.onclick = () => {
   if (!searchBar.classList.contains("hidden")) {
     searchInput.focus();
   }
+};
+
+tagFilterHeader.onclick = () => {
+  tagFilterContent.style.display = tagFilterContent.style.display === 'block' ? 'none' : 'block';
+  toggleArrow.classList.toggle('fa-chevron-down');
+  toggleArrow.classList.toggle('fa-chevron-up');
 };
 
 searchInput.addEventListener("input", () => {
@@ -252,6 +262,7 @@ function renderFlies(data) {
 /* ================= MODAL ================= */
 
 function openFlyModal(fly) {
+  window.scrollTo(0, 0);
   flyModal.style.display = "flex";
 
   document.getElementById("modalName").textContent = fly.name;
